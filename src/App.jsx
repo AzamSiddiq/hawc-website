@@ -153,8 +153,26 @@ const Navbar = () => {
 const Hero = () => (
   <section className="hero">
     <img src={logo} alt="HAWC Logo" className="hero-logo" />
-    <h1 className="section-title" style={{marginBottom: '10px'}}>HAWC</h1>
-    <p className="hero-tagline">Elevating Vision with Precision.</p>
+    <h1 className="section-title" style={{marginBottom: '20px'}}>HAWC</h1>
+    
+    {/* Added inline style to remove bottom margin */}
+    <p className="hero-tagline" style={{ marginBottom: '4px' }}>
+        Elevating Vision with Precision.
+    </p>
+    
+    {/* Changed marginTop to 0px to bring it closer */}
+    <p style={{ 
+        fontSize: '1.1rem',
+        marginTop: '0px', 
+        color: 'var(--metallic-silver)', 
+        textTransform: 'lowercase', 
+        letterSpacing: '2px',
+        fontWeight: '600',
+        fontFamily: 'cursive',
+        opacity: 0.9
+    }}>
+        Shoots | Edits | Designs
+    </p>
   </section>
 );
 
