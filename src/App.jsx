@@ -157,7 +157,7 @@ const Hero = () => (
     
     {/* Added inline style to remove bottom margin */}
     <p className="hero-tagline" style={{ marginBottom: '4px' }}>
-        Elevating Vision with Precision.
+        Elevating Vision with Precision.!
     </p>
     
     {/* Changed marginTop to 0px to bring it closer */}
