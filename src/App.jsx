@@ -153,7 +153,7 @@ const Navbar = () => {
 const Hero = () => (
   <section className="hero">
     <img src={logo} alt="HAWC Logo" className="hero-logo" />
-    <h1 className="section-title" style={{marginBottom: '20px'}}>HAWC</h1>
+    <h1 className="section-title" style={{marginBottom: '10px'}}>HAWC</h1>
     <p className="hero-tagline">Elevating Vision with Precision.</p>
   </section>
 );
