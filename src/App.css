@@ -126,12 +126,25 @@ body {
    ========================================= */
 .hero {
   min-height: 100vh;
-  display: flex; flex-direction: column;
-  justify-content: center; align-items: center;
+  /* Flexbox magic to center everything perfectly */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 100px 20px 0;
+  /* Remove top padding that pushes it down unevenly */
+  padding: 0 20px;
+  /* Ensure it takes full width relative to its container */
+  width: 100%;
 }
-.hero-logo { width: 220px; max-width: 80%; margin-bottom: 30px; filter: drop-shadow(0 0 20px rgba(192, 192, 192, 0.2)); }
+
+.hero-logo {
+  width: 220px;
+  max-width: 80%;
+  margin: 0 auto 30px auto; /* Explicit auto margins for safety */
+  filter: drop-shadow(0 0 20px rgba(192, 192, 192, 0.2));
+  display: block; /* Ensures image behaves like a block for margin:auto */
+}
 .hero-tagline { font-size: 1.8rem; color: var(--metallic-light); letter-spacing: 3px; font-weight: 300; margin-top: 0; }
 
 .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 40px; text-align: center; }
