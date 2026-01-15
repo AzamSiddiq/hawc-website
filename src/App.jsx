@@ -284,22 +284,22 @@ const Testimonials = () => (
       <div className="testimonial-card">
         <p className="testimonial-text">"HAWC operates in a league of their own. Their precision and dedication to the final product is unmatched in the industry. A truly premium experience."</p>
         <div className="testimonial-author">
-            <div>- Sarah Jenkins</div>
-            <div style={{fontSize: '0.9rem', opacity: 0.8}}>CEO, Apex Dynamics</div>
+            <div></div>
+            <div style={{fontSize: '0.9rem', opacity: 0.8}}>Vrikshit Foundation</div>
         </div>
       </div>
       <div className="testimonial-card">
         <p className="testimonial-text">"We needed a partner who understood luxury and high-stakes delivery. HAWC exceeded our expectations at every turn. Phenomenal work."</p>
         <div className="testimonial-author">
-            <div>- Marcus Thorne</div>
-            <div style={{fontSize: '0.9rem', opacity: 0.8}}>Director, Thorne Global</div>
+            <div></div>
+            <div style={{fontSize: '0.9rem', opacity: 0.8}}>Priyanshu kumar</div>
         </div>
       </div>
       <div className="testimonial-card">
         <p className="testimonial-text">"Reliable, professional, and incredibly skilled. The team brought our complex vision to life with absolute clarity."</p>
         <div className="testimonial-author">
-            <div>- Dr. Aris Thorne</div>
-            <div style={{fontSize: '0.9rem', opacity: 0.8}}>Founder, Innovatech</div>
+            <div></div>
+            <div style={{fontSize: '0.9rem', opacity: 0.8}}>Gains Hub</div>
         </div>
       </div>
     </div>
