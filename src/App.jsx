@@ -35,29 +35,29 @@ const facilitiesData = [
 const projectData = [
   {
     id: 1,
-    title: "Project Alpha Vision",
-    category: "Cinematography",
+    title: "Project Vrikshit",
+    category: "Reels / Short Film",
     thumb: thumb1,
     video: "https://www.youtube.com/embed/U3ox-beAh2k"
   },
   {
     id: 2,
-    title: "Echelon Systems",
-    category: "VFX / Motion",
+    title: "Brand shoot",
+    category: "Commercial",
     thumb: thumb2,
     video: "https://www.youtube.com/embed/I_76nDunaLQ"
   },
   {
     id: 3,
-    title: "Apex Global Initiative",
-    category: "Commercial",
+    title: "Event Coverage",
+    category: "Corporate",
     thumb: thumb3,
     video: "https://www.youtube.com/embed/EJBRA7JpEhc"
   },
   {
     id: 4,
-    title: "Nebula Prime",
-    category: "3D Animation",
+    title: "PodCast",
+    category: "",
     thumb: thumb4,
     video: "https://www.youtube.com/embed/tQ8wtMTSwzQ"
   }
@@ -250,7 +250,7 @@ const Facilities = () => (
 
 const Portfolio = () => (
   <section id="works" className="section-padding container">
-    <h2 className="section-title">Selected Works</h2>
+    <h2 className="section-title">Our Works</h2>
     <div className="portfolio-grid">
       {projectData.map(project => (
         <VideoPortfolioItem key={project.id} project={project} />
