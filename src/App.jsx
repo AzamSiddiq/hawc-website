@@ -1,8 +1,7 @@
 // src/App.jsx
 import { useState, useRef, useEffect } from 'react'; // Kept imports for other components
 import './App.css';
-import logo from './image_11.png';
-
+const logo = "/image_11.png"; // ✅ THIS WORKS
 // --- ASSET IMPORTS ---
 import thumb1 from './assets/image1.png';
 import thumb2 from './assets/image2.png';
@@ -268,7 +267,7 @@ const Facilities = () => (
 
 const Portfolio = () => (
   <section id="works" className="section-padding container">
-    <h2 className="section-title">Our Works!</h2>
+    <h2 className="section-title">Our Works</h2>
     <div className="portfolio-grid">
       {projectData.map(project => (
         <VideoPortfolioItem key={project.id} project={project} />
