@@ -1,7 +1,7 @@
 // src/App.jsx
 import { useState, useRef, useEffect } from 'react'; // Kept imports for other components
 import './App.css';
-const logo = "/image_11.png"; // ✅ THIS WORKS
+const logo = "./assests/image_11.png"; // ✅ THIS WORKS
 // --- ASSET IMPORTS ---
 import thumb1 from './assets/image1.png';
 import thumb2 from './assets/image2.png';
