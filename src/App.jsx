@@ -311,7 +311,7 @@ const Contact = () => (
     <div className="contact-container">
         <div className="contact-info-box">
             <h4>Email Us</h4>
-            <p><a href="mailto:azamnba1@gmail.com" className="contact-link">azamnba1@gmail.com</a></p>
+            <p><a href="mailto:azamnba1@gmail.com" className="contact-link">hawcagency@gmail.com</a></p>
         </div>
         <div className="contact-info-box">
             <h4>Instagram</h4>
