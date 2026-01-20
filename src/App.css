@@ -136,6 +136,7 @@ body {
   padding: 0 20px;
   /* Ensure it takes full width relative to its container */
   width: 100%;
+  margin: 0 auto;
 }
 
 .hero-logo {
