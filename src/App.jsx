@@ -12,7 +12,7 @@ const facilitiesData = [
   {
     id: 1,
     title: "Video Shoots",
-    description: "State-of-the-art RED and ARRI camera systems paired with Master Prime lenses deliver unparalleled image quality. We specialize in producing high-quality YouTube videos, reels, corporate films, and wedding shoots, ensuring cinematic visuals across every format."
+    description: "Using professional cameras, gimbals, and modern production gear, we craft engaging and high-quality visuals. From YouTube videos and reels to corporate films and weddings, we deliver content that stands out."
   },
   {
     id: 2,
