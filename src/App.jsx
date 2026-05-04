@@ -37,7 +37,7 @@ const projectData = [
     title: "Project Vrikshit",
     category: "Reels / Short Film",
     thumb: thumb1,
-    video: "https://www.youtube.com/embed/U3ox-beAh2k"
+    video: "https://www.youtube.com/embed/U3ox-beAh2k" 
   },
   {
     id: 2,
@@ -56,9 +56,16 @@ const projectData = [
   {
     id: 4,
     title: "PodCast",
-    category: "",
+    category: "NGOs",
     thumb: thumb4,
     video: "https://www.youtube.com/embed/tQ8wtMTSwzQ"
+  },
+  {
+    id: 5,
+    title: "Street interview", // you can rename this
+    category: "Instagram Reel",
+    thumb: thumb5,
+    video: "https://www.youtube.com/embed/YkuhUnvpcfE"
   }
 ];
 
