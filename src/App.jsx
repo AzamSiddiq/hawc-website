@@ -7,6 +7,7 @@ import thumb1 from './assets/image1.png';
 import thumb2 from './assets/image2.png';
 import thumb3 from './assets/image3.png';
 import thumb4 from './assets/image4.png';
+import thumb5 from './assets/image5.png';
 
 const facilitiesData = [
   {
